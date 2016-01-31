@@ -1,0 +1,15 @@
+{
+	"goo": [{
+		"filmstripFrames": 5,
+		"time": 600,
+		"properties": {
+				"image": {
+					"name": "goo",
+					"sourceX": 0,
+					"sourceY": 0,
+					"sourceWidth": 50,
+					"sourceHeight": 12
+				}
+			}
+}]
+}
