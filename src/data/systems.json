@@ -1,17 +1,23 @@
 {
 	"simulation": [
 		{
+			"name": "./systems/simulation/track-last-position",
+			"scenes": [
+				"main"
+			]
+		},
+		{
 			"name": "splat-ecs/lib/systems/match-canvas-size",
 			"scenes": [
 				"main"
 			]
 		},
-    {
-      "name": "./systems/simulation/track-last-position",
-      "scenes": [
-        "main"
-      ]
-    },
+		{
+			"name": "splat-ecs/lib/systems/match-center",
+			"scenes": [
+				"main"
+			]
+		},
 		{
 			"name": "splat-ecs/lib/systems/advance-timers",
 			"scenes": [
@@ -56,6 +62,12 @@
 		},
 		{
 			"name": "splat-ecs/lib/systems/follow-parent",
+			"scenes": [
+				"main"
+			]
+		},
+		{
+			"name": "./systems/simulation/run",
 			"scenes": [
 				"main"
 			]
@@ -117,6 +129,12 @@
 			]
 		},
 		{
+			"name": "./systems/renderer/draw-score",
+			"scenes": [
+				"main"
+			]
+		},
+		{
 			"name": "splat-ecs/lib/systems/viewport-reset",
 			"scenes": [
 				"main"
@@ -124,12 +142,6 @@
 		},
 		{
 			"name": "splat-ecs/lib/systems/draw-frame-rate",
-			"scenes": [
-				"main"
-			]
-		},
-		{
-			"name": "./systems/renderer/draw-score",
 			"scenes": [
 				"main"
 			]

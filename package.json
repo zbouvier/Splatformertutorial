@@ -1,7 +1,7 @@
 {
-  "name": "splat-ecs-starter-project",
-  "version": "0.0.0",
-  "description": "A Sample game",
+  "name": "sticky baby narwhal thing",
+  "version": "0.0.1",
+  "description": "Zach's First Tutorial Game Thing",
   "private": true,
   "main": "src/game.js",
   "scripts": {
@@ -33,6 +33,6 @@
     "webpack-dev-server": "^1.14.0"
   },
   "dependencies": {
-    "splat-ecs": "3.0.2"
+    "splat-ecs": "3.2.0"
   }
 }
